@@ -1,0 +1,13 @@
+name: turbulencescope
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - scipy>=1.11
+  - h5py>=3.9
+  - pytest>=8.0
+  # Optional: ParaView with Python bindings from conda-forge (separate from the desktop app).
+  # - paraview

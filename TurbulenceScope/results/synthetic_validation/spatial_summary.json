@@ -1,0 +1,126 @@
+{
+  "source": {
+    "synthetic": "taylor_green",
+    "n": 64
+  },
+  "shape": [
+    64,
+    64,
+    64
+  ],
+  "dx": 0.09817477042468103,
+  "periodic_gradient": true,
+  "speed": {
+    "n": 262144,
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.4309182967226123,
+    "std": 0.2535930234641377,
+    "rms": 0.5,
+    "p01": 4.411407075058866e-17,
+    "p05": 0.05083964131848802,
+    "p25": 0.21397003703194806,
+    "median": 0.4294615977013239,
+    "p75": 0.6343932841636458,
+    "p95": 0.8501498903207064,
+    "p99": 0.9477912564305985
+  },
+  "vorticity_magnitude": {
+    "n": 262144,
+    "min": 0.0,
+    "max": 1.996788786071239,
+    "mean": 0.7786238294177343,
+    "std": 0.3759500702175537,
+    "rms": 0.864634907364791,
+    "p01": 0.06709282902641275,
+    "p05": 0.19251416834674728,
+    "p25": 0.5393694125532229,
+    "median": 0.7632267682733592,
+    "p75": 0.936278224670275,
+    "p95": 1.5297542057635287,
+    "p99": 1.8274702646320813
+  },
+  "Q": {
+    "n": 262144,
+    "min": -0.996791364044963,
+    "max": 0.996791364044963,
+    "mean": 0.0,
+    "std": 0.30520377774037305,
+    "rms": 0.30520377774037305,
+    "p01": -0.8331560379673713,
+    "p05": -0.5672357095714461,
+    "p25": -0.1086228901859656,
+    "median": 0.0,
+    "p75": 0.10862289018596555,
+    "p95": 0.5672357095714458,
+    "p99": 0.8331560379673711
+  },
+  "lambda2": {
+    "n": 262144,
+    "min": -0.996791364044963,
+    "max": 0.996791364044963,
+    "mean": 2.0816681711721685e-17,
+    "std": 0.3052037777403731,
+    "rms": 0.3052037777403731,
+    "p01": -0.833156037967371,
+    "p05": -0.5672357095714458,
+    "p25": -0.10862289018596553,
+    "median": -8.333155912336542e-35,
+    "p75": 0.10862289018596581,
+    "p95": 0.5672357095714464,
+    "p99": 0.833156037967371
+  },
+  "divergence_rms": 7.007528443247125e-16,
+  "divergence_rms_over_vorticity_rms": 8.104609683877401e-16,
+  "fraction_Q_positive": 0.48094940185546875,
+  "fraction_lambda2_negative": 0.5010566711425781,
+  "fraction_Q_pos_and_lambda2_neg": 0.47911834716796875,
+  "q_stats_region": "full volume",
+  "threshold_sensitivity": [
+    {
+      "factor": 0.5,
+      "threshold": 0.15260188887018653,
+      "reference_Q_rms": 0.30520377774037305,
+      "volume_fraction": 0.213348388671875,
+      "n_components": 12,
+      "largest_component_voxels": 6991,
+      "largest_component_fraction_of_marked": 0.125
+    },
+    {
+      "factor": 1.0,
+      "threshold": 0.30520377774037305,
+      "reference_Q_rms": 0.30520377774037305,
+      "volume_fraction": 0.127105712890625,
+      "n_components": 12,
+      "largest_component_voxels": 4165,
+      "largest_component_fraction_of_marked": 0.125
+    },
+    {
+      "factor": 2.0,
+      "threshold": 0.6104075554807461,
+      "reference_Q_rms": 0.30520377774037305,
+      "volume_fraction": 0.040191650390625,
+      "n_components": 12,
+      "largest_component_voxels": 1317,
+      "largest_component_fraction_of_marked": 0.125
+    },
+    {
+      "factor": 4.0,
+      "threshold": 1.2208151109614922,
+      "reference_Q_rms": 0.30520377774037305,
+      "volume_fraction": 0.0,
+      "n_components": 0,
+      "largest_component_voxels": 0,
+      "largest_component_fraction_of_marked": 0.0
+    },
+    {
+      "factor": 8.0,
+      "threshold": 2.4416302219229844,
+      "reference_Q_rms": 0.30520377774037305,
+      "volume_fraction": 0.0,
+      "n_components": 0,
+      "largest_component_voxels": 0,
+      "largest_component_fraction_of_marked": 0.0
+    }
+  ]
+}

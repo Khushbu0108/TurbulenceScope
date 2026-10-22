@@ -1,0 +1,223 @@
+{
+  "re_lambda_check_vs_jhtdb_readme": {
+    "jhtdb_readme_value": 433,
+    "window": "t <= 2.048 (last record at 2.04)",
+    "file_time_weighted_mean": 433.01843137254906,
+    "full_period_time_weighted_mean": 418.04988989043824
+  },
+  "source_files": {
+    "ener_Re_time.txt": {
+      "sha256": "edde46fdb5b44ce1c7cd963a3f1703fd6de23d3008f62e8363b909c8880487fa",
+      "rows": 507
+    },
+    "spectrum.txt": {
+      "sha256": "b45c643869357a805eb4cb839a65fb83388b185c005b72580c7e28b133e8b3e8",
+      "rows": 482
+    }
+  },
+  "history_qc": {
+    "rows": 507,
+    "non_finite_values": 0,
+    "time_monotonic_nondecreasing": true,
+    "duplicated_time_values": [
+      2.04,
+      3.06,
+      5.06
+    ],
+    "duplicate_rows_total": 6,
+    "duplicates_with_conflicting_values": 0,
+    "positive_dt_counts": {
+      "0.01": 2,
+      "0.02": 501
+    },
+    "irregular_steps": [
+      {
+        "row_before": 103,
+        "t_before": 2.04,
+        "t_after": 2.05,
+        "dt": 0.009999999999999787
+      },
+      {
+        "row_before": 104,
+        "t_before": 2.05,
+        "t_after": 2.06,
+        "dt": 0.010000000000000231
+      }
+    ],
+    "last_time": 10.04
+  },
+  "history_summary_deduplicated": {
+    "n_records_used": 504,
+    "t_start": 0.0,
+    "t_end": 10.04,
+    "energy": {
+      "initial": 0.6820399,
+      "final": 0.6796503,
+      "min": 0.6792907,
+      "t_at_min": 9.76,
+      "max": 0.7298512,
+      "t_at_max": 4.26,
+      "mean_time_weighted": 0.7053098827689243,
+      "mean_unweighted": 0.7052788428571428,
+      "std_unweighted": 0.017187253301353282,
+      "peak_to_peak": 0.05056050000000001,
+      "relative_peak_to_peak_pct": 7.168866684725044,
+      "net_change_pct": -0.35036073402743617
+    },
+    "Re_lambda": {
+      "initial": 426.8378,
+      "final": 423.7837,
+      "min": 405.7751,
+      "t_at_min": 6.84,
+      "max": 438.2334,
+      "t_at_max": 1.7,
+      "mean_time_weighted": 418.04988989043824,
+      "mean_unweighted": 418.10133829365077,
+      "std_unweighted": 10.771993123613235,
+      "peak_to_peak": 32.45830000000001,
+      "relative_peak_to_peak_pct": 7.763261445770148,
+      "net_change_pct": -0.7155176978233899
+    },
+    "pearson_corr_energy_Re": -0.04672209223539995
+  },
+  "energy_dEdt_sign_change_times": [
+    0.12634538152611954,
+    4.2476683937824555,
+    9.758267716535542
+  ],
+  "spectrum_qc": {
+    "n_rows": 482,
+    "n_nonfinite": 0,
+    "n_nonpositive": 0,
+    "k_contiguous": true,
+    "k_min": 1,
+    "k_max": 482,
+    "duplicated_k": 0
+  },
+  "spectrum_checks": {
+    "E1": 0.299999995142,
+    "E_last": 5.48600800571e-07,
+    "E_decay_k1_to_k100_factor": 2052.1709508027116,
+    "k_of_minimum_E": 447,
+    "upturn_present_after_minimum": true,
+    "sum_E_over_k": 0.7060484374755458,
+    "time_weighted_mean_energy": 0.7053098827689243,
+    "relative_difference_pct": 0.10471350602973317,
+    "monotonic_decreasing_up_to_k": 15,
+    "k_below_which_E_exceeds_half_of_E1": 1
+  },
+  "candidate_scaling_ranges": [
+    {
+      "kmin": 3,
+      "kmax": 23,
+      "n_points": 21,
+      "slope": -1.5944541585151115,
+      "slope_stderr": 0.028568288496527507,
+      "amplitude_A": 0.31036635452609607,
+      "r_squared": 0.9939374265130596,
+      "decades": 0.8846065812979305
+    },
+    {
+      "kmin": 30,
+      "kmax": 57,
+      "n_points": 28,
+      "slope": -1.5961296579267286,
+      "slope_stderr": 0.017164599366015096,
+      "amplitude_A": 0.3535261551580877,
+      "r_squared": 0.9970022150241291,
+      "decades": 0.2787536009528289
+    }
+  ],
+  "fit_sensitivity": [
+    {
+      "kmin": 3,
+      "kmax": 10,
+      "n_points": 8,
+      "slope": -1.5687454689100557,
+      "slope_stderr": 0.1031632781995535,
+      "amplitude_A": 0.3009088035324862,
+      "r_squared": 0.9747086864203106,
+      "decades": 0.5228787452803376
+    },
+    {
+      "kmin": 3,
+      "kmax": 23,
+      "n_points": 21,
+      "slope": -1.5944541585151115,
+      "slope_stderr": 0.028568288496527507,
+      "amplitude_A": 0.31036635452609607,
+      "r_squared": 0.9939374265130596,
+      "decades": 0.8846065812979305
+    },
+    {
+      "kmin": 5,
+      "kmax": 15,
+      "n_points": 11,
+      "slope": -1.7349677431252624,
+      "slope_stderr": 0.05411121542012266,
+      "amplitude_A": 0.421365372055079,
+      "r_squared": 0.9913214180774643,
+      "decades": 0.47712125471966244
+    },
+    {
+      "kmin": 5,
+      "kmax": 30,
+      "n_points": 26,
+      "slope": -1.5612897982227527,
+      "slope_stderr": 0.02420258297157202,
+      "amplitude_A": 0.28978885180737274,
+      "r_squared": 0.9942658354730142,
+      "decades": 0.7781512503836436
+    },
+    {
+      "kmin": 10,
+      "kmax": 30,
+      "n_points": 21,
+      "slope": -1.4400192588042866,
+      "slope_stderr": 0.01976561104421648,
+      "amplitude_A": 0.20052750985519072,
+      "r_squared": 0.9964331433587492,
+      "decades": 0.47712125471966244
+    },
+    {
+      "kmin": 10,
+      "kmax": 50,
+      "n_points": 41,
+      "slope": -1.4477540829356692,
+      "slope_stderr": 0.008524793889318615,
+      "amplitude_A": 0.2054524065320826,
+      "r_squared": 0.9986496202198758,
+      "decades": 0.6989700043360189
+    },
+    {
+      "kmin": 20,
+      "kmax": 60,
+      "n_points": 41,
+      "slope": -1.5292618670271232,
+      "slope_stderr": 0.014081605214375204,
+      "amplitude_A": 0.2718803727909341,
+      "r_squared": 0.9967041193964105,
+      "decades": 0.47712125471966244
+    },
+    {
+      "kmin": 30,
+      "kmax": 57,
+      "n_points": 28,
+      "slope": -1.5961296579267286,
+      "slope_stderr": 0.017164599366015096,
+      "amplitude_A": 0.3535261551580877,
+      "r_squared": 0.9970022150241291,
+      "decades": 0.2787536009528289
+    },
+    {
+      "kmin": 30,
+      "kmax": 100,
+      "n_points": 71,
+      "slope": -1.9635411433009824,
+      "slope_stderr": 0.024083926830930427,
+      "amplitude_A": 1.4092385229653093,
+      "r_squared": 0.9897260211806992,
+      "decades": 0.5228787452803376
+    }
+  ]
+}

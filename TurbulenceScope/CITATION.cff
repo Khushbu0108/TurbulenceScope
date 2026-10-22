@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. If you use the JHTDB data, also cite the JHTDB references listed in data/README.md."
+title: "TurbulenceScope: reproducible ParaView and Python workflow for JHTDB forced isotropic turbulence"
+type: software
+authors:
+  - family-names: Talaviya
+    given-names: Khushbu
+version: 0.1.0
+date-released: 2026-10-21
+license: MIT
+repository-code: "https://github.com/<your-username>/TurbulenceScope"
+abstract: "Summary-data analysis, vortex-criterion tooling and a ParaView pipeline for the JHU Turbulence Database forced isotropic turbulence dataset. Spatial ParaView results require a user-obtained JHTDB cutout."
+references:
+  - type: article
+    authors:
+      - {family-names: Li, given-names: Yi}
+      - {family-names: Perlman, given-names: Eric}
+      - {family-names: Wan, given-names: Minping}
+      - {family-names: Yang, given-names: Yunke}
+      - {family-names: Meneveau, given-names: Charles}
+      - {family-names: Burns, given-names: Randal}
+      - {family-names: Chen, given-names: Shiyi}
+      - {family-names: Szalay, given-names: Alexander}
+      - {family-names: Eyink, given-names: Gregory}
+    title: "A public turbulence database cluster and applications to study Lagrangian evolution of velocity increments in turbulence"
+    journal: "Journal of Turbulence"
+    volume: 9
+    issue: 31
+    year: 2008
+    doi: "10.1080/14685240802376389"

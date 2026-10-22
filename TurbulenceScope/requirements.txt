@@ -1,0 +1,12 @@
+# Core (everything needed to reproduce the tested analysis)
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.11
+
+# Optional
+h5py>=3.9        # only to read real HDF5 cutouts (scripts/inspect_dataset.py, turbulencescope.spatial.load_velocity)
+pytest>=8.0      # optional; the suite also runs with: python -m unittest discover -s tests
+
+# ParaView itself is NOT installed by pip. Install ParaView 6.x from https://www.paraview.org/download/
+# (the pipeline was written against the 6.x paraview.simple API; see docs/reproducibility.md for its verification status).
